@@ -4,8 +4,8 @@ import { fibonacci } from "./fibonacci.ts";
 
 Deno.test("should return the fibonacci number at position 10 assuming a zero based index", () => {
 
-    const actualResult = fibonacci(10)
-    const expectedResult = 55
+    const actualResult = fibonacci(7)
+    const expectedResult = 13
     assertStrictEquals(actualResult, expectedResult)
 
 })
